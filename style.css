@@ -1,0 +1,373 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #555;
+  background-color: #f0f2f5;;
+  line-height: 1.6em;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+.logo {
+  width: 300px;
+  margin-top: 176px;
+}
+
+.f-h  h2{
+  font-size: 20px;
+  line-height: 1.6em;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 2px;
+  margin-left: 30px;
+}
+
+form .login a, form .create a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#homeform {
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  top: 20%;
+  left: 700px;
+  height: 350px;
+  width: 396px;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+#homeform .login{
+  background-color: #1877f2;
+  height: 45px;
+  text-align: center;
+  font-size: 22px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin: 7px 0 7px 0;
+}
+
+#homeform input {
+  width: 100%;
+  height: 48px;
+  padding: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #55555598;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #55555533;
+}
+
+form .create {
+  background-color: #36a420;
+}
+
+.forget a{
+  text-decoration: none;
+  color: #12a7e2;
+}
+
+.forget {
+  margin: 10px 0 10px 0;
+}
+
+.forget a:hover {
+  text-decoration: underline;
+}
+
+.linear {
+  border: 1px solid #55555517;
+  margin-top: 30px;
+}
+
+.create {
+    background-color: #1877f2;
+    width: 50%;
+    height: 45px;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px 5px;
+    border-radius: 6px;
+    margin-top: 7%;
+    margin-left: 24%;
+  }
+
+.create:hover {
+  background-color: #298317;
+}
+
+.shadow {
+  box-shadow: 0 6px 10px 0 gray;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  top: 20%;
+  left: 700px;
+  height: 350px;
+  width: 396px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  opacity: 30%;
+}
+
+.b-ctr  a {
+  font-weight: bold;
+}
+
+.b-ctr a:hover, .link a:hover{
+  border-bottom: 1px solid black;
+}
+
+.b-ctr {
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  top: 78%;
+  left: 700px;
+  height: 350px;
+  width: 396px;
+  padding: 10px 20px;
+}
+
+footer {
+  margin-top: 500px;
+  height: 180px;
+  font-family: inherit;
+  background-color: #fff;
+  padding-top: 20px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  list-style: none;
+  width: 80%;
+  margin: auto;
+}
+
+
+.m {
+  background-color: #f4f4f4;
+  font-size: 15px;
+  padding: 5px 10px;
+  margin-left: 5px;
+}
+
+.line2 {
+  border: 1px solid rgba(0, 0, 0, 0.158);
+  width: 80%;
+  margin: auto;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.link {
+  display: flex;
+  width: 80%;
+  font-size: 11px;
+  margin: auto;
+  text-align: center;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.link li a{
+  color: #0313499d;
+  padding: 0 10px 0 2px;
+}
+
+.link a:hover{
+  border-bottom: 1px solid #0313499d;
+}
+
+.copy p{
+  position: absolute;
+  top: 1000px;
+  left: 50%;
+  
+}
+
+/* forget page */
+
+#f-hs {
+  height: 55px;
+  width: 100%;
+  margin-top: 0;
+  background-color: #fff;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.137);
+}
+
+ #f-hs .logo {
+  position: absolute;
+  margin-top: 2px;
+  width: 143px;
+}
+
+#f-form {
+  float: right;
+
+}
+
+#f-form  input {
+  width: 188px;
+  height: 39px;
+  padding: 5px 10px;
+  margin-top: 7px;
+  margin-left: 5px;
+  font-family: inherit;
+  font-size: 15px;
+  color: #555555b6;
+  border-radius: 6px;
+  border: none;
+  border: 1px solid #55555544;
+}
+
+#f-form .f-login a{
+  background-color: rgba(0, 60, 255, 0.842);
+  color: white;
+  padding: 11px 11px;
+  font-size: 15px;
+  font-weight: bolder;
+  border-radius: 6px;
+  margin: 0 6px 0 6px;
+
+}
+
+#f-form .f-forget a {
+ margin-left:px;
+ margin-right:40px;
+ color: #1877f2;
+}
+
+#f-form .f-forget a:hover{
+  border-bottom: 1px solid #1877f2;
+}
+
+.shadow-2 {
+  box-shadow: 0 6px 10px 0 gray;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 280px;
+  width: 500px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  opacity: 30%;
+}
+
+#middle {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 18px 18px;
+  border-radius: 10px;
+  height: 280px;
+  width: 500px;
+}
+
+#middle h2 {
+  margin-bottom: 10px;
+}
+
+.f-line {
+  border-bottom: 1px solid #55555517;
+  margin: 20px 5px;
+  width: 450px;
+}
+
+#middle h2, #middle p {
+  font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+}
+
+#middle input {
+  font-family: Roboto-Regular, Helvetica, Arial, sans-serif;
+  color: black;
+  font-weight: bold;
+}
+
+#middle p {
+  font-size: 16px;
+}
+
+#middle input {
+  width: 100%;
+  height: 48px;
+  padding: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #55555598;
+  border-radius: 5px;
+  border: none;
+  border: 1px solid #55555533;
+}
+
+#middle a, #middle button {
+  float: right;
+  margin: 22px 0;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+#middle a {
+  background: #55555533;
+  margin-right: 8px;
+  padding: 6px 20px;
+}
+
+#middle button {
+  border: none;
+  padding: 10px 20px;
+  background-color: #1877f2;
+  color: #fff;
+}
+
+.f-line2 {
+  position: absolute;
+  border-bottom: 1px solid #55555517;
+  margin: px 5px;
+  width: 450px;
+}
+
+#f-footer {
+  margin-top: 500px;
+  height: 300px;
+  font-family: inherit;
+  background-color: #fff;
+  padding-top: 20px;
+}
+
+#f-footer .f-copy p{
+  position: absolute;
+  top: 800px;
+  left: 50%;
+}
+
+#f-footer ul , #f-footer a {
+  padding-top: 100px;
+  padding-right: 5px;
+}
