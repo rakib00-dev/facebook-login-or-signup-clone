@@ -1,18 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300&display=swap');
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
   color: #555;
-  background-color: #f0f2f5;;
+  background-color: #f0f2f5;
   line-height: 1.6em;
 }
 
-.container{
+.container {
   width: 90%;
   margin: auto;
   overflow: hidden;
@@ -28,7 +30,7 @@ a {
   margin-top: 176px;
 }
 
-.f-h  h2{
+.f-h h2 {
   font-size: 20px;
   line-height: 1.6em;
   font-family: Arial, Helvetica, sans-serif;
@@ -36,7 +38,8 @@ a {
   margin-left: 30px;
 }
 
-form .login a, form .create a {
+form .login a,
+form .create a {
   text-decoration: none;
   color: #fff;
 }
@@ -54,7 +57,7 @@ form .login a, form .create a {
   border-radius: 8px;
 }
 
-#homeform .login{
+#homeform .login {
   background-color: #1877f2;
   height: 45px;
   text-align: center;
@@ -81,7 +84,7 @@ form .create {
   background-color: #36a420;
 }
 
-.forget a{
+.forget a {
   text-decoration: none;
   color: #12a7e2;
 }
@@ -100,16 +103,16 @@ form .create {
 }
 
 .create {
-    background-color: #1877f2;
-    width: 50%;
-    height: 45px;
-    text-align: center;
-    font-size: 16px;
-    padding: 8px 5px;
-    border-radius: 6px;
-    margin-top: 7%;
-    margin-left: 24%;
-  }
+  background-color: #1877f2;
+  width: 50%;
+  height: 45px;
+  text-align: center;
+  font-size: 16px;
+  padding: 8px 5px;
+  border-radius: 6px;
+  margin-top: 7%;
+  margin-left: 24%;
+}
 
 .create:hover {
   background-color: #298317;
@@ -129,11 +132,12 @@ form .create {
   opacity: 30%;
 }
 
-.b-ctr  a {
+.b-ctr a {
   font-weight: bold;
 }
 
-.b-ctr a:hover, .link a:hover{
+.b-ctr a:hover,
+.link a:hover {
   border-bottom: 1px solid black;
 }
 
@@ -166,7 +170,6 @@ footer ul {
   margin: auto;
 }
 
-
 .m {
   background-color: #f4f4f4;
   font-size: 15px;
@@ -192,20 +195,19 @@ footer ul {
   justify-content: space-between;
 }
 
-.link li a{
+.link li a {
   color: #0313499d;
   padding: 0 10px 0 2px;
 }
 
-.link a:hover{
+.link a:hover {
   border-bottom: 1px solid #0313499d;
 }
 
-.copy p{
+.copy p {
   position: absolute;
   top: 1000px;
   left: 50%;
-  
 }
 
 /* forget page */
@@ -218,7 +220,7 @@ footer ul {
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.137);
 }
 
- #f-hs .logo {
+#f-hs .logo {
   position: absolute;
   margin-top: 2px;
   width: 143px;
@@ -226,10 +228,9 @@ footer ul {
 
 #f-form {
   float: right;
-
 }
 
-#f-form  input {
+#f-form input {
   width: 188px;
   height: 39px;
   padding: 5px 10px;
@@ -243,7 +244,7 @@ footer ul {
   border: 1px solid #55555544;
 }
 
-#f-form .f-login a{
+#f-form .f-login a {
   background-color: rgba(0, 60, 255, 0.842);
   color: white;
   padding: 11px 11px;
@@ -251,16 +252,15 @@ footer ul {
   font-weight: bolder;
   border-radius: 6px;
   margin: 0 6px 0 6px;
-
 }
 
 #f-form .f-forget a {
- margin-left:px;
- margin-right:40px;
- color: #1877f2;
+  margin-left: px;
+  margin-right: 40px;
+  color: #1877f2;
 }
 
-#f-form .f-forget a:hover{
+#f-form .f-forget a:hover {
   border-bottom: 1px solid #1877f2;
 }
 
@@ -299,14 +299,9 @@ footer ul {
   width: 450px;
 }
 
-#middle h2, #middle p {
-  font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
-}
-
-#middle input {
-  font-family: Roboto-Regular, Helvetica, Arial, sans-serif;
-  color: black;
-  font-weight: bold;
+#middle h2,
+#middle p {
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 #middle p {
@@ -326,7 +321,13 @@ footer ul {
   border: 1px solid #55555533;
 }
 
-#middle a, #middle button {
+#middle input::placeholder {
+  font-family: 'Roboto-Regular', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+
+#middle a,
+#middle button {
   float: right;
   margin: 22px 0;
   font-weight: bold;
@@ -361,13 +362,14 @@ footer ul {
   padding-top: 20px;
 }
 
-#f-footer .f-copy p{
+#f-footer .f-copy p {
   position: absolute;
   top: 800px;
   left: 50%;
 }
 
-#f-footer ul , #f-footer a {
+#f-footer ul,
+#f-footer a {
   padding-top: 100px;
   padding-right: 5px;
 }
